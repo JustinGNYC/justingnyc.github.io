@@ -50,10 +50,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link active" aria-current="page" href="#">Projects</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -75,28 +75,30 @@
   <div class="container marketing">
 
 
+ <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
+        <h2>PacMen Exercise</h2>
+        <p>Produces a PacMan with a button click. Demonstrates using the array method and manipulating the DOM.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-    <!-- START THE FEATURETTES -->
+        <h2>Eye Exercise</h2>
+        <p>Two eyes that follow mouse movement. Demonstrates skills in JavaScript and CSS.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-	
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">About Justin G. <span class="text-muted">Full Time Learner</span></h2>
-        <p class="lead">For the past 20+ years I've worked in IT. My work has taking me throughout the US, and has included everything from Help Desk Support, Hardware builds/maintenance, Networking, EDI mapping, and VR environments. Being able to apply what I've learned in one area, to address a problem in a seemingly completely different one, has been a rewarding experience. Always looking for the next interesting project to work on!</p>
-<a class="btn btn-primary" href="https://github.com/JustinGNYC" role="button"><i class="bi bi-github"></i> JustinGNYC</a>
-<a class="btn btn-primary" href="mailto:justin@gorkic.us" role="button"><i class="bi bi-envelope"></i> justin@gorkic.us</a>
-<a class="btn btn-primary" href="https://www.linkedin.com/in/justin-gorkic-7b760271/" role="button"><i class="bi bi-linkedin"></i></a>
-
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="background-image:url('./biopic.jpg');background-position:center;background-repeat:no-repeat;" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
+        <h2>Real Time Bus Tracking</h2>
+        <p>A map displaying Boston MBTA bus locations. Demonstrates retrieving data asynchronously.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
 
 
   </div><!-- /.container -->
